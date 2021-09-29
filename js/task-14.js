@@ -47,6 +47,8 @@ const handleSubmit = function (evt) {
 };
 const greetingsUser = () => {
   alert("email & password are ok");
+  refs.inputEmail.style.border = "";
+  refs.inputPassword.style.border = "";
 };
 
 refs.form.addEventListener("submit", handleSubmit);

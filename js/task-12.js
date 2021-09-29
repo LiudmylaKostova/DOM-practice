@@ -6,6 +6,7 @@
 const ulRef = document.querySelector("#container");
 ulRef.style.display = "flex";
 ulRef.style.flexWrap = "wrap";
+ulRef.style.listStyle = "none";
 
 for (let index = 0; index < 20; index++) {
   ulRef.innerHTML += `<li style = 'margin-right: 10px'><img src = 'https://picsum.photos/id/${index}/200/300'/></li>`;
